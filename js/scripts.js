@@ -1,6 +1,8 @@
+
 $(document).ready(function() {
   var number = parseInt(prompt("Please enter a number"));
     event.preventDefault();
+
 
 for(index = 1; index <= number; index += 1) {
     if (index % 15 === 0) {
@@ -10,7 +12,7 @@ for(index = 1; index <= number; index += 1) {
     } else if (index % 5 === 0) {
         $("#list").append("<li>" + "pong" + "<li>");
     } else {
-        $("#list").append("<li>" + index + "</li>");
+        $("#list").append("<li>" + "index" + "</li>");
     }
 }
 

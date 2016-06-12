@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   margin-top: center;
-  color:#CEECF5
+  color:#blue
 
 
 }
@@ -27,19 +27,31 @@ p{
 
 
 body{
-
+  
   text-align: center;
   margin-top: center;
   color:#blue
 
 }
 
+
 img{
   image-orientation: center
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
 
 
 }
 i{
+  bottom: 800px
   image-orientation: center
-
+  border: solid;
+  border-radius: 10%;
+  background-color: lightblue;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
 }
