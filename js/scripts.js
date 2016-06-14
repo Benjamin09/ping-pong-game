@@ -29,7 +29,7 @@
 var pingPong = function(number){
   var endResult =[];
 
-  for(var i = 1;) i <= number; i++) {
+  for(var i = 1; i <= number; i++) {
     if (i % 3 === 0){
       endResult.push("ping");
     }
@@ -47,8 +47,9 @@ var pingPong = function(number){
 };
   // front end
   $(document).ready(function(){
-    $("button#input").submit(function(event){
-      $("#pongy").empty();
+    $("form#input").submit(function(){
+      //event.preventDefault();
+      //$("#pongy").empty();
       var number = parseInt($("input#Num").val());
       var displayNum = pingPong(number);
 
@@ -57,8 +58,6 @@ var pingPong = function(number){
       $("#output").append("<li>" + singleResult + "</li>");
   });
       $("#output").append("<ul>");
-
-      event.preventDefault();
   });
 
 });
