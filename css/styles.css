@@ -25,9 +25,20 @@ p{
 
 }
 
+li{
+  p{
 
+    text-align: center;
+  	margin-top: center;
+  	color:#blue
+
+
+  }
+
+
+}
 body{
-  
+
   text-align: center;
   margin-top: center;
   color:#blue
